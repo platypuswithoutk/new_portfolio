@@ -1,0 +1,30 @@
+@import "abstracts/variables";
+@import "abstracts/typography";
+@import "abstracts/base";
+
+@import "layout/header";
+@import "layout/footer";
+
+@import "pages/front-page";
+@import "pages/articles";
+@import "pages/single";
+@import "pages/page";
+
+@import "vendors/bootstrap-grid.min.css";
+@import "vendors/reset.css";
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
