@@ -1,7 +1,7 @@
 <footer>
   <div class="row">
-    <div class="col-12">
-      <span class="copy">Copyrights. All rights reserved.</span>
+    <div class="col-12" id="footer-text">
+      <div class="copy">© 2021 Roksana Dzioba<br>Copyrights. All rights reserved.</div>
     </div>
   </div>
 </footer>
