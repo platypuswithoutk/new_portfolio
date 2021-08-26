@@ -1,0 +1,208 @@
+.section_title {
+    margin: 0 auto;
+    font-size: 24px;
+    padding-bottom: 50px;
+    color: #545454;
+    margin-top: -20px;
+}
+
+.section_title.no {
+    margin-top: 20px;
+}
+
+.portfolio_items {
+    list-style: none;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.portfolio_card {
+    width: 544px;
+    height: 497px;
+    background: #fff;
+    cursor: pointer;
+    position: relative;
+    margin: 1em 20px;
+}
+
+.portfolio_card, .portfolio_card .caption {
+    display: flex; 
+    flex-direction: column;
+}
+
+#smart {
+    border-top: 4px solid #B09D8D;
+}
+
+#rehabilitacja {
+    border-top: 4px solid #D7FC97;
+}
+
+#april {
+    border-top: 4px solid #B0A96A;
+}
+
+#portfolio {
+    border-top: 4px solid #FCDBBD;
+}
+
+#weatherapp {
+    border-top: 4px solid #B0A96A;
+}
+
+#react {
+    border-top: 4px solid #B09D8D;
+}
+
+.portfolio_card .caption {
+    text-align:center;
+    padding:16px;
+    flex-grow:1;
+}
+.portfolio_card .caption > *+* {margin-top:0.75rem;}
+.portfolio_card .caption:last-child {margin-top:auto;}
+.portfolio_card .caption:nth-last-child(2){margin-top:0.75rem;}
+
+.portfolio_card .caption h3, .portfolio_card .caption p, .portfolio_card .caption span {
+    color: #6c6b5f;
+    line-height:24px;
+}
+
+.portfolio_card .caption h3 {
+    font-weight:800;
+    margin: 0px 0px 8px 0px;
+
+}
+.portfolio_card .caption p {
+    margin:0;
+}
+
+.portfolio_card .caption span {
+    text-transform:uppercase;
+    letter-spacing:0.1em;
+    display:inline-block;
+    position:absolute;
+    font-size:0.9em;
+    top: 7.85em;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity:0;
+    transition: all .25s cubic-bezier(.02, .01, .47, 1);
+}
+
+.portfolio_card#react, .portfolio_card#weatherapp {
+    height: 445px;
+    figure {
+        height:300px;
+    }
+}
+
+.portfolio_card figure {
+    overflow:hidden;
+    margin:0;
+    padding:0;
+    height:361px;
+    position:relative;
+    order:1;
+}
+
+.portfolio_card figure .img {
+    transition: all 250ms cubic-bezier(.02, .01, .47, 1);
+}
+
+
+img.img {
+    width: 544px;
+    object-fit:cover;
+}
+
+.portfolio_card a, .portfolio_card a:visited {
+    text-decoration:none;
+    outline: none;
+}
+
+.portfolio_card a:after {
+    content:'';
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+    right: 0; 
+    bottom:0; 
+    z-index:999;
+}
+
+#smart:after, #rehabilitacja:after, #april:after, #portfolio:after, #weatherapp:after, #react:after {
+    width: 544px;
+    height: 39px;
+    color: #6d2f2f;
+    background-color: #d4d4d4;
+    position: absolute;
+    top: 92%;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#smart:after {
+    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, JS, Wordpress (ACF), RWD'; 
+    padding-left: 20px;
+}
+
+#rehabilitacja:after {
+    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, Wordpress (ACF), RWD';
+    padding-left: 20px;
+}
+
+#weatherapp:after {
+    content: 'Stack: HTML, CSS, JS, WEB API, RWD';
+    padding-left: 20px;
+}
+
+#react:after {
+    content: 'Stack: HTML, CSS, JS, React, React Hooks, RWD ';
+}
+
+#april:after {
+    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, Wordpress (ACF), RWD';
+}
+
+#portfolio:after {
+    content: 'Stack: HTML, CSS, JS, jQuery, RWD';
+}
+
+.portfolio_card:hover {
+    box-shadow: 0 0 0 0 0.25rem;
+}
+
+.portfolio_card:hover figure .img{
+    transform:scale(1.25);
+}
+
+.portfolio_card:hover .caption span {
+    top: 6em; 
+    opacity:1;
+}
+
+.portfolio_card a:focus, .portfolio_card h3 a:focus {
+    text-decoration: underline;
+}
+
+.portfolio_card:focus-within {
+    box-shadow: 0 0 0 0 0.25rem;
+} 
+
+.portfolio_card:focus-within a:focus, .portfolio_card:focus-within h3 a:focus {
+    text-decoration: none;
+}
+
+.portfolio_card h3:focus-within ~ .cta {
+    box-shadow: 0 0 0 0.125rem;
+}
+

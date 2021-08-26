@@ -1,0 +1,74 @@
+header {
+    //background-image: url('../img/marmur.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center; 
+    width:100%;
+    background-image: url('../img/wave.svg');
+    height: 300px;
+    //background-image: linear-gradient(135deg, #fdfcfb 0%, #ede2d9 100%);
+
+    #menu_style {
+        align-items: center;
+
+        .logo {
+            img {
+                max-width: 100%;
+            }
+        }
+
+        .menu__list {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+                ul.menu {
+                    display: flex;
+                    justify-content: space-between;
+                    list-style-type: none;
+                }
+
+                li {
+                    margin: 0 20px;
+                    font-size: 18px;
+                    padding: 10px 0;
+                    color: #545454;
+                    outline: none;
+                    width: fit-content;
+                }
+
+                li:last-of-type {
+                    margin-right: 30px;
+                }
+
+                li:hover{    
+                    text-shadow: 0px 0px  black;
+                    
+                }
+            }
+
+            .social-icons {
+                i {
+                    margin: 0 5px 0 10px;
+                    font-size: 35px;
+                }
+
+                i.github {
+                    color: #24292e;
+                }
+
+                i.linkedin {
+                    color: #0a66c2;
+                }
+
+                i:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+
+
+
+
+
