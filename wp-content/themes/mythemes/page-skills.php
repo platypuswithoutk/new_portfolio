@@ -9,18 +9,56 @@
 <?php get_header(); ?>
 
 <section id="skills">
+    <div class="container">
     <div class="row">
       <div class="col-12">
-        <h1><?php the_title(); ?></h1>
+        <h2>W swojej pracy wykorzystuje następujące technologie:</h2>
       </div>		
+      <div class="row tech-div">
+        <div class="tech-item">
+          <i class="fab fa-html5"></i>
+          <p>HTML</p>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-css3-alt"></i>
+          <p>CSS</p>
+        </div>
+        <div class="wp">
+          <i class="fab fa-wordpress"></i>
+          <p>Wordpress</p>
+        </div>
+        <div class="js">
+          <i class="fab fa-js"></i>
+          <p>JavaScript</p>
+        </div>
+        <div class="bootstrap">
+          <i class="fab fa-bootstrap"></i>
+          <p>Bootstarp</p>
+        </div>
+        
+      </div>
     </div>
 
     <div class="row">
       <div class="col-12">
-        <div class="projects__item">
-      <h2>lorem ipsum lorem ipsum lorem ipsum</h2>
+        <div class="skills_tools">
+          <h2>oraz narzędzia takie jak:</h2>
+          <div class="tools-items">
+            <ul>
+              <li>Webpack</li>
+              <li>Xampp</li>
+              <li>Git</li>
+              <li>Github</li>
+              <li>VSC</li>
+              <li>JIRA</li>
+              <li>ESLint</li>
+              <li>AdobeXD</li>
+              <li>Avocode/PSDtech</li>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
     </div>
 </section>
 

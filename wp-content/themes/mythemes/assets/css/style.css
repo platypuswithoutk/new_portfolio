@@ -462,7 +462,8 @@ img.img {
   color: #05182b;
   font-weight: 900;
   display: inline-block;
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin: 0px; }
 
 .page-template-page-about .timeline-text span {
   color: #633d48;

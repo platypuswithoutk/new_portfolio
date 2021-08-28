@@ -44,10 +44,10 @@
                     <ul class="portfolio_items">
                     <li class="portfolio_card" id="rehabilitacja">
                             <figure>
-                                <a href="rehabilitacja-kr.pl "><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/covid(2).png'; ?>" alt="Rehabilitacja Covid"></a>
+                                <a href="http://rehabilitacja-kr.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/covid(2).png'; ?>" alt="Rehabilitacja Covid"></a>
                             </figure>
                             <div class="caption">
-                                <a href="rehabilitacja-kr.pl" target="_blank" title="Rehabilitacja Covid" aria-describedby="desc-rehabilitacja"><h3>Rehabilitacja Covid</h3></a>
+                                <a href="http://rehabilitacja-kr.pl/" target="_blank" title="Rehabilitacja Covid" aria-describedby="desc-rehabilitacja"><h3>Rehabilitacja Covid</h3></a>
                                 <p>Strona interentowa dla firmy oferującej rehabilitację oddechową</p>
                                 <span class="cta" aria-hidden="true" id="desc-rehabilitacja">Przejdź na stronę internetową</span>
                             </div>
