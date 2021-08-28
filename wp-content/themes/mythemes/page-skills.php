@@ -36,7 +36,7 @@
           <p>Bootstarp</p>
         </div>
         <div class="tech-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sql.png'; ?>" alt="sql icon">
+          <img class="sql" src="<?php echo get_template_directory_uri(); ?>/assets/img/sql.png'; ?>" alt="sql icon">
           <p>SQL</p>
         </div>
         <div class="tech-item">
@@ -44,7 +44,7 @@
           <p>jQuery</p>
         </div>
         <div class="tech-item">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.png'; ?>" alt="RWD icon">
+          <img class="rwd" src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.png'; ?>" alt="RWD icon">
           <p>RWD</p>
         </div>
         

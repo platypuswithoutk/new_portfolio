@@ -1,8 +1,69 @@
 .page-template-page-skills {
     
-    h1 {
+    h2 {
         text-align: center;
         font-size: 24px;
         padding-bottom: 70px;
+        color: #545454;
+    }
+
+    .tech-div {
+        text-align: center;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+
+        i {
+            font-size: 45px;
+        }
+
+        img {
+            width: 45px;
+            height: 45px;
+        }
+
+        .sql, .rwd {
+            width: 70px;
+            height: 45px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+    }
+
+    .tools-items {
+
+        ul {
+            list-style-type: none;
+        }
+        li {
+            width: fit-content;
+            margin: auto;
+            font-size: 16px;
+            position: relative;
+
+            &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: -20px;
+                top: 6px;
+                width: 12px;
+                height: 12px;
+                border: 1px solid #018df5;
+                background: #018df5;
+                border-radius: 50%;
+                box-shadow: 0px 0px 0px 3px #fff inset;
+            }
+        }
+    }
+
+    .skills_tools {
+        padding-top: 50px;
+
+        h2 {
+            padding-bottom: 50px;
+        }
     }
 }
