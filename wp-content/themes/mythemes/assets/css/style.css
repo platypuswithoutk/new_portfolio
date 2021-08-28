@@ -609,6 +609,10 @@ img.img {
   font-size: 24px;
   padding-bottom: 70px; }
 
+.page-template-page-contact .button {
+  width: 150px;
+  padding: 10px 20px; }
+
 .page-template-page-contact #contact-data p {
   font-size: 18px;
   text-align: center; }
@@ -638,7 +642,8 @@ img.img {
 
 .page-template-page-contact .wpcf7-form.init input, .page-template-page-contact .wpcf7-form.init textarea {
   border: none;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  width: 70%; }
 
 .page-template-page-contact button.button.type3.link {
   margin: 0px; }
@@ -646,7 +651,9 @@ img.img {
 .page-template-page-contact .wpcf7-form-control.wpcf7-submit {
   background: transparent;
   border: none !important;
-  position: absolute; }
+  position: absolute;
+  top: 35%;
+  left: 13%; }
 
 @media screen and (max-width: 767px) {
   #contact {

@@ -20,7 +20,7 @@ get_header();
     </div>
     <div class="col-lg-6 col-md-6 col-sm-12">
       <p class="form-start">Skontaktuj się poprzez formularz:</p>
-      <?php echo do_shortcode('[contact-form-7 id="37" title="Contact form 1"]'); ?>
+      <?php echo do_shortcode('[contact-form-7 id="50" title="Contact form 1"]'); ?>
     </div>
   </div>
 </div>

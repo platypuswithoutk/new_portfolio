@@ -5,6 +5,11 @@
         padding-bottom: 70px;
     }
 
+    .button {
+        width: 150px;
+        padding: 10px 20px;
+    }
+
     #contact-data {
         p {
             font-size: 18px;
@@ -47,6 +52,7 @@
         input, textarea {
             border: none;
             border-bottom: 2px solid black;
+            width: 70%;
         }
     }
 
@@ -58,6 +64,8 @@
         background: transparent;
         border: none !important;
         position: absolute;
+        top: 35%;
+        left: 13%;
     }
 }
 
