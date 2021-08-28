@@ -7,6 +7,7 @@
 ?>
 
 <?php get_header(); ?>
+
 <main id="front-page">
   <div class="container">
     <div class="row" id="front-page-introduction">

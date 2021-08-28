@@ -82,6 +82,48 @@ header {
   width: 100%;
   background-image: url("../img/wave.svg");
   height: 300px; }
+  header .loader-container {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 99999;
+    background: white; }
+  header .loader {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-top: 10px solid #212121;
+    border-bottom: 10px solid #212121;
+    animation: rotateAntiCW 1.8s linear infinite; }
+  header .loader::after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid transparent;
+    border-left: 10px solid #ff5757;
+    border-right: 10px solid #ff5757;
+    animation: rotate 1s linear infinite; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(-360deg); } }
+
+@keyframes rotateAntiCW {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
   header #menu_style {
     align-items: center; }
     header #menu_style .logo img {

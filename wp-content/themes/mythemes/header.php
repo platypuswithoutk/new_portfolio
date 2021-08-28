@@ -18,6 +18,9 @@
 <body <?php body_class(); ?>>
     <header>
 
+    <div class="loader-container">
+        <div class="loader"></div>
+    </div>
 
         <div class="container">
             <div class="row" id="menu_style">
