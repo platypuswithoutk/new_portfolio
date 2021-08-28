@@ -23,17 +23,29 @@
           <i class="fab fa-css3-alt"></i>
           <p>CSS</p>
         </div>
-        <div class="wp">
+        <div class="tech-item">
           <i class="fab fa-wordpress"></i>
           <p>Wordpress</p>
         </div>
-        <div class="js">
+        <div class="tech-item">
           <i class="fab fa-js"></i>
           <p>JavaScript</p>
         </div>
-        <div class="bootstrap">
+        <div class="tech-item">
           <i class="fab fa-bootstrap"></i>
           <p>Bootstarp</p>
+        </div>
+        <div class="tech-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sql.png'; ?>" alt="sql icon">
+          <p>SQL</p>
+        </div>
+        <div class="tech-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/pobrane.png'; ?>" alt="jQuery icon"> 
+          <p>jQuery</p>
+        </div>
+        <div class="tech-item">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/responsive.png'; ?>" alt="RWD icon">
+          <p>RWD</p>
         </div>
         
       </div>
