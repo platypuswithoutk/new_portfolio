@@ -485,6 +485,7 @@ img.img {
   padding-bottom: 70px; }
 
 .page-template-page-about #photo {
+  margin: auto;
   text-align: center; }
 
 .page-template-page-about h2 {
@@ -516,7 +517,6 @@ img.img {
 
 .page-template-page-about .container {
   width: 100%;
-  max-width: 1140px;
   padding: 0 15px;
   box-sizing: border-box;
   margin: 0 auto; }
@@ -601,23 +601,20 @@ img.img {
   padding-right: 30px;
   text-align: right; }
 
-@media all and (max-width: 768px) {
-  .all-timelines::before {
-    right: unset;
-    top: 0; }
-  .single-timeline:nth-child(2n) .timeline-text {
-    padding-left: 30px;
-    padding-right: 0;
-    text-align: left; }
-  .single-timeline:nth-child(2n) .t-square {
-    left: -6px;
-    right: unset; }
-  .timeline-blank {
-    display: none; }
-  .timeline-text {
-    width: 100%; }
-  .single-timeline:nth-child(even) .timeline-text span {
-    text-align: left !important; } }
+@media all and (max-width: 991px) {
+  .container {
+    max-width: 900px; } }
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 540px; }
+  .page-template-page-about h2 {
+    padding-top: 40px;
+    padding-bottom: 20px; } }
+
+@media screen and (max-width: 425px) {
+  .page-template-page-about .timeline-text span, .page-template-page-about .timeline-text h6 {
+    font-size: 12px; } }
 
 @media all and (max-width: 360px) {
   .all-timelines::before {

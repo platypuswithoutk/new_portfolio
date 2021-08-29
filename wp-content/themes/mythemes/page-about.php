@@ -12,14 +12,14 @@ get_header();
 <section id="about">
     <div class="container">
     <div class="row" class="about">
-      <div class="col-6" id="about-desc">
+      <div class="col-xl-6 col-lg-6 col-md-12" id="about-desc">
         <h2>Witam na mojej stronie!</h2>
         <p>Nazywam się Roksana Dzioba i naukę kodowania stron internetowych rozpoczęłam około półtora roku temu.</p>
         <p>Od listopada 2019 roku biorę udział w różnych kursach dażąc do poszerzenia moich kompetencji, poprzez poznawanie najnowszych rozwiązań czy technologii programistycznych. Wzięłam także udział w projekcie typu Open Source.
         <p>Aktualnie zdobywam komercyjne doświadczenie pracując stacjonarnie dla firmy Millenium Studio z Krakowa, gdzie zajmuje się kodowaniem stron internetowych oraz sklepów, na podstawie projektu graficznego przygotowanego przez grafików.</p>
         <p>W wolnym czasie, poza programowaniem, interesuje się jeszcze siatkówką, kawą, uwielbiam sudoku oraz podróże. </p>
       </div>
-      <div class="col-6" id="photo">
+      <div class="col-xl-6 col-lg-6 col-md-12" id="photo">
 	  	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/small_jo.jpg'; ?>" alt="personal-photo">
       </div>
     </div>
