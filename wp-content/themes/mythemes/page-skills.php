@@ -32,6 +32,10 @@
           <p>JavaScript</p>
         </div>
         <div class="tech-item">
+          <i class="fab fa-react"></i>
+          <p>React</p>
+        </div>
+        <div class="tech-item">
           <i class="fab fa-bootstrap"></i>
           <p>Bootstarp</p>
         </div>
