@@ -680,13 +680,20 @@ img.img {
     #contact img {
       margin-top: -50px; }
     #contact #wpcf7-f37-o1 p, #contact p.form-start {
-      text-align: center; } }
+      text-align: center; }
+    #contact p.form-start {
+      font-size: 18px;
+      line-height: 26px; }
+    #contact .wpcf7-form.init p {
+      text-align: center; }
+    #contact .button {
+      margin: 0 auto; } }
 
 @media screen and (max-width: 425px) {
-  input[type=text],
-  input[type=email],
-  textarea {
-    width: 80%; } }
+  .page-template-page-contact .wpcf7-form.init input, .page-template-page-contact .wpcf7-form.init textarea {
+    width: 90%; }
+  .page-template-page-contact .wpcf7-form-control.wpcf7-submit {
+    left: 3%; } }
 
 * {
   -webkit-font-smoothing: antialiased;

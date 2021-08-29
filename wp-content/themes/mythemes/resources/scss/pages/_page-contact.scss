@@ -80,13 +80,35 @@
         #wpcf7-f37-o1 p, p.form-start {
             text-align: center;
         }
+
+        p.form-start {
+            font-size: 18px;
+            line-height: 26px;
+        }
+
+        .wpcf7-form.init {
+            p {
+                text-align: center;
+            }
+        }
+
+        .button {
+            margin: 0 auto;
+        }
     }
 }
 
 @media screen and (max-width: 425px) {
-    input[type=text],
-    input[type=email],
-    textarea {
-        width: 80%;
+    .page-template-page-contact {
+        .wpcf7-form.init {
+            input, textarea {
+                width: 90%;
+            }
+        }
+
+        .wpcf7-form-control.wpcf7-submit {
+            
+            left: 3%;
+        }
     }
 }
