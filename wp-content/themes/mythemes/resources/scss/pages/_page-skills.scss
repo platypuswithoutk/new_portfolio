@@ -9,7 +9,7 @@
 
     .tech-div {
         text-align: center;
-        justify-content: space-around;
+        justify-content: center;
         width: 100%;
         align-items: center;
 
@@ -20,6 +20,11 @@
         img {
             width: 45px;
             height: 45px;
+        }
+
+        .tech-item {
+            width: 100px;
+            padding: 0 10px;
         }
 
         .sql, .rwd {
@@ -36,6 +41,7 @@
 
         ul {
             list-style-type: none;
+            padding: 0;
         }
         li {
             width: fit-content;
@@ -67,3 +73,32 @@
         }
     }
 }
+
+@media screen and (max-width: 991px) {
+    .page-template-page-skills {
+        .tech-div {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page-template-page-skills {
+        .tech-item {
+            padding: 10px;
+        }
+        .tech-div {
+            justify-content: center;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .page-template-page-skills {
+        h2 {
+            font-size: 20px;
+            padding-bottom: 40px;
+        }
+    }
+}
+
