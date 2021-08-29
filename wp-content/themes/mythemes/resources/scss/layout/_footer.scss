@@ -15,3 +15,9 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 425px) {
+    footer #footer-text .copy {
+        font-size: 14px;
+    }
+}

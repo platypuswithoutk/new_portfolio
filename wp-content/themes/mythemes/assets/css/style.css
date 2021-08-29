@@ -170,6 +170,10 @@ footer {
       padding-top: 130px;
       font-size: 16px; }
 
+@media screen and (max-width: 425px) {
+  footer #footer-text .copy {
+    font-size: 14px; } }
+
 .box {
   position: absolute;
   width: 30px;
