@@ -616,10 +616,6 @@ img.img {
   .page-template-page-about .timeline-text span, .page-template-page-about .timeline-text h6 {
     font-size: 12px; } }
 
-@media all and (max-width: 360px) {
-  .all-timelines::before {
-    top: 32px; } }
-
 .page-template-page-contact h2 {
   text-align: center;
   font-size: 24px;
