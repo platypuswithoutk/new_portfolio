@@ -7,6 +7,10 @@
 .buttons {
   padding-top: 45px; }
 
+.up-text {
+  margin: 0px;
+  padding: 0px !important; }
+
 .button {
   position: relative;
   padding: 1em 1.5em;
@@ -329,7 +333,6 @@ footer {
         font-size: 20px;
         color: #545454;
         font-weight: 400;
-        padding: 20px 0;
         line-height: 30px;
         letter-spacing: 0.2px; }
 

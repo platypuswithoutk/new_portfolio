@@ -13,8 +13,9 @@
     <div class="row" id="front-page-introduction">
       <div class="col-xl-6 col-lg-6 col-md-12 col-12" id="col-introdution">
         <div class="about-box">
+          <h2 class="up-text">Cześć! Nazywam się</h2>
           <h1><span>R</span>oksana <span>D</span>zioba</h1>
-          <h2>Cześć! Dziękuję za odwiedziny mojej strony. Jestem szybko i chętnie rozwijającym się Front-end Developerem z Krakowa. Jeżeli jesteś zainteresowany, poznaj mnie lepiej </h2>
+          <h2>i dziękuję za odwiedziny mojej strony. Jestem szybko i chętnie rozwijającym się Front-end Developerem z Krakowa. Jeżeli jesteś zainteresowany, poznaj mnie lepiej </h2>
           <div class="box"></div>
         
           <div class="buttons">
