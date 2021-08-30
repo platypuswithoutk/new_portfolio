@@ -6,3 +6,7 @@ window.addEventListener('load', function() {
   loader.parentElement.removeChild(loader);
   html.style.overflowY = 'auto';
 });
+
+$(".menu-icon").click(function() {  
+  $(this).toggleClass("opened");
+});
