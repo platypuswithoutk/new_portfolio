@@ -280,6 +280,12 @@ header {
   .logo {
     width: 100%; } }
 
+@media screen and (max-width: 576px) {
+  #main-menu.open #menu-menu-1 {
+    top: 110px; }
+    #main-menu.open #menu-menu-1 li {
+      margin: 0px; } }
+
 footer {
   background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;

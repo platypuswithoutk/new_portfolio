@@ -273,5 +273,15 @@ header {
         }
     }
 
+    @media screen and (max-width: 576px) {
+        #main-menu.open #menu-menu-1 {
+            top: 110px;
+
+            li {
+                margin: 0px;
+            }
+        }
+    }
+
 
 
