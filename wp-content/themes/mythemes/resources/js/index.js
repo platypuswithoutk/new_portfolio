@@ -9,4 +9,5 @@ window.addEventListener('load', function() {
 
 $(".menu-icon").click(function() {  
   $(this).toggleClass("opened");
+  $('#main-menu').toggleClass("open");
 });

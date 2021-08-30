@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./resources/scss/style.scss\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconst loader = document.querySelector('.loader-container');\r\nconst html = document.querySelector('html');\r\nwindow.addEventListener('load', function() {\r\n  loader.parentElement.removeChild(loader);\r\n  html.style.overflowY = 'auto';\r\n});\r\n\r\n$(\".menu-icon\").click(function() {  \r\n  $(this).toggleClass(\"opened\");\r\n});\n\n//# sourceURL=webpack:///./resources/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/style.scss */ \"./resources/scss/style.scss\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_scss_style_scss__WEBPACK_IMPORTED_MODULE_0__);\n\r\n\r\nconst loader = document.querySelector('.loader-container');\r\nconst html = document.querySelector('html');\r\nwindow.addEventListener('load', function() {\r\n  loader.parentElement.removeChild(loader);\r\n  html.style.overflowY = 'auto';\r\n});\r\n\r\n$(\".menu-icon\").click(function() {  \r\n  $(this).toggleClass(\"opened\");\r\n  $('#main-menu').toggleClass(\"open\");\r\n});\n\n//# sourceURL=webpack:///./resources/js/index.js?");
 
 /***/ }),
 

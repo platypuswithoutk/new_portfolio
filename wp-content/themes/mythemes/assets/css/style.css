@@ -83,11 +83,7 @@ header {
   background-image: url("../img/wave.svg");
   height: 300px; }
   header .menu-icon {
-    height: 25px;
-    cursor: pointer;
-    width: 40px;
-    position: relative;
-    overflow: hidden; }
+    display: none; }
   header .menu-icon:before, header .menu-icon:after {
     transition-property: all;
     transition-duration: 0.2s;
@@ -244,13 +240,35 @@ header {
 @media screen and (max-width: 768px) {
   #main-menu {
     display: none; }
+  #main-menu.open {
+    display: block; }
+    #main-menu.open #menu-menu-1 {
+      height: 100vh;
+      left: 0;
+      width: 100vw;
+      position: fixed;
+      display: block;
+      margin: 0 auto;
+      background: #b1c8fc;
+      top: 100px;
+      z-index: 999; }
+      #main-menu.open #menu-menu-1 li {
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        padding: 10px 0; }
   header #menu_style .social-icons i {
     margin: 4px 0px 0 5px;
     font-size: 30px; }
-  .menu-icon {
+  header .menu-icon {
     display: flex;
-    margin-left: 40px;
-    margin-top: 2px; }
+    height: 25px;
+    cursor: pointer;
+    width: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px; }
   .logo {
     width: 150%; } }
 
