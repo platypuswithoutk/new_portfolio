@@ -272,6 +272,10 @@ header {
   .logo {
     width: 150%; } }
 
+@media screen and (max-width: 767px) {
+  .logo {
+    width: 100%; } }
+
 footer {
   background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;
