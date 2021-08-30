@@ -43,11 +43,9 @@
                         <a href="https://github.com/platypuswithoutk"><i class="fab fa-github-square github"></i></a>
                         <a href="https://www.linkedin.com/in/roksana-dzioba-268a33156/"><i class="fab fa-linkedin linkedin"></i></a>
                     </div>
-                    <div class="hamburger">
-                        <div class="line1"></div>
-                        <div class="line2"></div>
-                        <div class="line3"></div>
-                    </div>
+                    <span class="hamburger">
+                        <span></span>
+                    </span>
                 </div>
                 
             </div>
