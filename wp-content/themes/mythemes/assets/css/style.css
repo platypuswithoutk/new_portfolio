@@ -157,6 +157,15 @@ header {
     header #menu_style .social-icons i:hover {
       transform: scale(1.1); }
 
+@media screen and (max-width: 1200px) {
+  ul.menu {
+    padding-left: 0px; } }
+
+@media screen and (max-width: 991px) {
+  header #menu_style .menu__list li {
+    margin: 0px 10px;
+    font-size: 15px; } }
+
 footer {
   background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;
