@@ -166,6 +166,15 @@ header {
     margin: 0px 10px;
     font-size: 15px; } }
 
+@media screen and (max-width: 768px) {
+  #main-menu {
+    display: none; }
+  header #menu_style .social-icons i {
+    margin: 0 0px 0 5px;
+    font-size: 30px; }
+  .hamburger {
+    display: flex; } }
+
 footer {
   background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;

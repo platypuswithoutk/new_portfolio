@@ -127,5 +127,20 @@ header {
         }
     }
 
+    @media screen and (max-width: 768px) {
+        #main-menu {
+            display: none;
+        }
+
+        header #menu_style .social-icons i {
+            margin: 0 0px 0 5px;
+            font-size: 30px;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+    }
+
 
 
