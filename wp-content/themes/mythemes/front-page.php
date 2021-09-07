@@ -37,7 +37,9 @@
       </div> 
     </div>
 
-    <div class="row" id="skills-introdution">
+    <div data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
+      <div class="row" id="skills-introdution">
       <div class="col-12 col-lg-12 col-md-6">
         <div class="main-skills">
           <div class="skill-card">
@@ -77,7 +79,7 @@
             <a href="" class="btn btn-3">Kontakt</a>
           </button>
       </div>
-
+      </div>
     </div>
 
   </div>
