@@ -20,7 +20,7 @@
                                 <a href="https://smartelectric.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'; ?>" alt="I am an example of a work image"></a>
                             </figure>
                             <div class="caption">
-                                <a href="https://smartelectric.pl/" target="_blank" title="Smart Electric" aria-describedby="desc-smart"><h3>Weather App</h3></a>
+                                <a href="https://smartelectric.pl/" target="_blank" title="Smart Electric" aria-describedby="desc-smart"><h3>Smart Electric</h3></a>
                                 <p>Strona interentowa dla firmy Smart Electric</p>
                                 <span class="cta" aria-hidden="true" id="desc-smart">Przejdź na stronę internetową</span>
                             </div>
