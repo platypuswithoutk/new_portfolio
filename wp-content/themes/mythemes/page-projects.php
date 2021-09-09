@@ -10,11 +10,10 @@
 
 <section class="all-projects">
     <div class="container">
-        <div class="row commercial">
+        <div class="commercial">
             <div class="section_title"><h2>Projekty komerycjne</h2></div>
-            <div class="col-12">
-                <div class="projects__item">
-                    <ul class="portfolio_items">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <li class="portfolio_card" id="smart">
                             <figure>
                                 <a href="https://smartelectric.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'; ?>" alt="I am an example of a work image"></a>
@@ -25,24 +24,24 @@
                                 <span class="cta" aria-hidden="true" id="desc-smart">Przejdź na stronę internetową</span>
                             </div>
                         </li>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <li class="portfolio_card" id="april">
-                        <figure>
-                            <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'; ?>" alt="April Development"></a>
-                        </figure>
-                        <div class="caption">
-                            <a href="https://aprildevelopment.pl/" target="_blank" title="April Development" aria-describedby="desc-april"><h3>April Development</h3></a>
-                            <p>Strona interentowa dla firmy April Development</p>
-                            <span class="cta" aria-hidden="true" id="desc-april">Przejdź na stronę internetową</span>
-                        </div>
-                    </li>
-                        
-                    </ul>   
+                            <figure>
+                                <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'; ?>" alt="April Development"></a>
+                            </figure>
+                            <div class="caption">
+                                <a href="https://aprildevelopment.pl/" target="_blank" title="April Development" aria-describedby="desc-april"><h3>April Development</h3></a>
+                                <p>Strona interentowa dla firmy April Development</p>
+                                <span class="cta" aria-hidden="true" id="desc-april">Przejdź na stronę internetową</span>
+                            </div>
+                        </li>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="projects__item">
-                    <ul class="portfolio_items">
-                    <li class="portfolio_card" id="rehabilitacja">
+
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <li class="portfolio_card" id="rehabilitacja">
                             <figure>
                                 <a href="http://rehabilitacja-kr.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/covid(2).png'; ?>" alt="Rehabilitacja Covid"></a>
                             </figure>
@@ -52,17 +51,19 @@
                                 <span class="cta" aria-hidden="true" id="desc-rehabilitacja">Przejdź na stronę internetową</span>
                             </div>
                         </li>
-                    <li class="portfolio_card" id="portfolio">
-                        <figure>
-                            <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'; ?>" alt="I am an example of a work image"></a>
-                        </figure>
-                        <div class="caption">
-                            <a href="https://platypuswithoutk.github.io/portfolio/" target="_blank" title="portfolio" aria-describedby="desc-portfolio"><h3>Stare portfolio</h3></a>
-                            <p>Moje dawne portfolio używane do celów rekrutacyjnych w zeszłym roku</p>
-                            <span class="cta" aria-hidden="true" id="desc-portfolio">Przejdź na stronę internetową</span>
-                        </div>
-                    </li>
-                    </ul>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <li class="portfolio_card" id="portfolio">
+                            <figure>
+                                <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'; ?>" alt="I am an example of a work image"></a>
+                            </figure>
+                            <div class="caption">
+                                <a href="https://platypuswithoutk.github.io/portfolio/" target="_blank" title="portfolio" aria-describedby="desc-portfolio"><h3>Stare portfolio</h3></a>
+                                <p>Moje dawne portfolio używane do celów rekrutacyjnych w zeszłym roku</p>
+                                <span class="cta" aria-hidden="true" id="desc-portfolio">Przejdź na stronę internetową</span>
+                            </div>
+                        </li>
+                    </div>
                 </div>
             </div>
         </div>
