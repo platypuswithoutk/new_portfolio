@@ -95,8 +95,29 @@ button.button.type3.link {
     }
 }
 
+@media screen and (max-width: 1199px) {
+    .box { 
+        @keyframes move { 
+        0% {top: 255px;}
+            
+        100% {top: 280px;}
+        }
+    }
+}
+
 @media screen and (max-width: 992px) {
     #front-page #front-page-introduction #col-introdution .about-box {
         padding: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .box { 
+        left: 18%;
+        @keyframes move { 
+        0% {top: 170px;}
+            
+        100% {top: 200px;}
+        }
     }
 }
