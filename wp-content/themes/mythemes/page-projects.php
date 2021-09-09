@@ -25,7 +25,7 @@
                             </div>
                         </li>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                         <li class="portfolio_card" id="april">
                             <figure>
                                 <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'; ?>" alt="April Development"></a>
@@ -71,7 +71,7 @@
         <div class="private">
             <div class="section_title no"><h2>Projekty niekomerycjne</h2></div>
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="weatherapp">
                             <figure>
                                 <a href="https://platypuswithoutk.github.io/weather_APP/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/weatherapp.png'; ?>" alt="I am an example of a work image"></a>
@@ -83,7 +83,7 @@
                             </div>
                         </li>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                         <li class="portfolio_card" id="react">
                             <figure>
                                 <a href="https://platypuswithoutk.github.io/react-quizApp/ "><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/react.png'; ?>" alt="Rehabilitacja Covid"></a>

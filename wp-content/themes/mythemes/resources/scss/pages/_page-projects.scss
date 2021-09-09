@@ -234,7 +234,45 @@ img.img {
         margin-top: 0px;
     }
 
+    .portfolio_card .caption span {
+        opacity: 1;
+    }
+
     .section_title.no {
         font-size: 20px;
+    }
+
+    img.img {
+        width: 100%;
+    }
+
+    .portfolio_card figure {
+        height: 310px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .portfolio_card figure {
+        height: 275px;
+    }
+
+    .section_title {
+        font-size: 18px;
+    }
+
+    .section_title.no {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .portfolio_card figure {
+        height: 235px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio_card figure {
+        height: 210px;
     }
 }
