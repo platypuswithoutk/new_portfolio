@@ -120,4 +120,43 @@ button.button.type3.link {
         100% {top: 200px;}
         }
     }
+
+    .front-page_img img {
+        display: none;
+    }
+
+    .main-skills {
+        flex-wrap: wrap;
+        padding-top: 0px;
+
+        .skill-card {
+            margin: 20px 25px;
+
+        }
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .box { 
+        @keyframes move { 
+        0% {top: 190px;}
+            
+        100% {top: 210px;}
+        }
+    }
+
+    #skills-introdution {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #front-page #front-page-introduction #col-introdution .about-box {
+        padding: 30px 0px;
+    }
+
+    .buttons {
+        padding-top: 45px;
+        display: flex;
+    }
 }

@@ -32,7 +32,7 @@
       <div class="col-xl-6 col-lg-6 col-md-12 col-12">
         <div class="front-page_img">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sectionIMG.jpg'; ?>" alt="logo">
-          <img src="../assets/img/sectionIMG.jpg" alt="">
+          
         </div>
       </div> 
     </div>
@@ -40,7 +40,7 @@
     <div data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom">
       <div class="row" id="skills-introdution">
-      <div class="col-12 col-lg-12 col-md-6">
+      <div class="col-12 col-lg-12 col-md-12">
         <div class="main-skills">
           <div class="skill-card">
             <i class="fab fa-wordpress"></i>
