@@ -38,7 +38,7 @@
     </div>
 
     <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-bottom">
+     data-aos-anchor-placement="top-bottom">
       <div class="row" id="skills-introdution">
       <div class="col-12 col-lg-12 col-md-12">
         <div class="main-skills">
