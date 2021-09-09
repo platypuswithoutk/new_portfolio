@@ -13,7 +13,7 @@
         <div class="commercial">
             <div class="section_title"><h2>Projekty komerycjne</h2></div>
                 <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="smart">
                             <figure>
                                 <a href="https://smartelectric.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'; ?>" alt="I am an example of a work image"></a>
@@ -25,7 +25,7 @@
                             </div>
                         </li>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="april">
                             <figure>
                                 <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'; ?>" alt="April Development"></a>
@@ -39,8 +39,8 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                <div class="row second-row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="rehabilitacja">
                             <figure>
                                 <a href="http://rehabilitacja-kr.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/covid(2).png'; ?>" alt="Rehabilitacja Covid"></a>
@@ -52,7 +52,7 @@
                             </div>
                         </li>
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                         <li class="portfolio_card" id="portfolio">
                             <figure>
                                 <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'; ?>" alt="I am an example of a work image"></a>
@@ -66,13 +66,12 @@
                     </div>
                 </div>
             </div>
-        </div>
+        
 
-        <div class="row private">
+        <div class="private">
             <div class="section_title no"><h2>Projekty niekomerycjne</h2></div>
-            <div class="col-12">
-                <div class="projects__item">
-                    <ul class="portfolio_items">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <li class="portfolio_card" id="weatherapp">
                             <figure>
                                 <a href="https://platypuswithoutk.github.io/weather_APP/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/weatherapp.png'; ?>" alt="I am an example of a work image"></a>
@@ -83,6 +82,8 @@
                                 <span class="cta" aria-hidden="true" id="desc-weatherapp">Przejdź na stronę internetową</span>
                             </div>
                         </li>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                         <li class="portfolio_card" id="react">
                             <figure>
                                 <a href="https://platypuswithoutk.github.io/react-quizApp/ "><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/react.png'; ?>" alt="Rehabilitacja Covid"></a>
@@ -93,11 +94,9 @@
                                 <span class="cta" aria-hidden="true" id="desc-react">Przejdź na stronę internetową</span>
                             </div>
                         </li>
-                    </ul>   
+                    </div>   
                 </div>
             </div>
-            </div>
-
         </div>
     </div>
 
