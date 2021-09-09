@@ -160,3 +160,76 @@ button.button.type3.link {
         display: flex;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .box { 
+        left: 26%;
+        @keyframes move { 
+        0% {top: 200px;}
+            
+        100% {top: 220px;}
+        }
+    }
+
+    .buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .buttons.top {
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 521px) {
+    .box { 
+        left: 43%;
+        @keyframes move { 
+        0% {top: 230px;}
+            
+        100% {top: 250px;}
+        }
+    }
+
+    .buttons.top {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .box { 
+        @keyframes move { 
+        0% {top: 250px;}
+            
+        100% {top: 280px;}
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #front-page #front-page-introduction #col-introdution .about-box {
+        text-align: center;
+    }
+
+    .box {
+        left: 46%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #front-page #front-page-introduction #col-introdution .about-box h2 {
+        font-size: 18px;
+    }
+
+    .buttons.top {
+        padding-top: 60px;
+    }
+
+    .box { 
+        @keyframes move { 
+        0% {top: 270px;}
+            
+        100% {top: 290px;}
+        }
+    }
+}

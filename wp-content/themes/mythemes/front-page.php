@@ -18,7 +18,7 @@
           <h2>i dziękuję za odwiedziny mojej strony. Jestem szybko i chętnie rozwijającym się Front-end Developerem z Krakowa. Jeżeli jesteś zainteresowany, poznaj mnie lepiej </h2>
           <div class="box"></div>
         
-          <div class="buttons">
+          <div class="buttons top">
             <button class="button type3">
               <a href="" class="btn btn-3">O mnie</a>
             </button>
