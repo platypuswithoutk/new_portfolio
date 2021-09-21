@@ -74,7 +74,7 @@ module.exports = {
     new BrowserSyncPlugin({
       host: 'localhost',
       port: 3000,
-      proxy: 'http://localhost/moje_portfolio',
+      proxy: 'http://localhost/front_cv',
       files: ['*.php'],
       injectChanges: true,
       notify: true

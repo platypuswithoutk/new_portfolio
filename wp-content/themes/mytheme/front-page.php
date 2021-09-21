@@ -19,12 +19,17 @@
           <div class="box"></div>
         
           <div class="buttons top">
-            <button class="button type3">
-              <a href="<?php the_field('button1');?>" class="btn btn-3"><?php the_field('button1_desc');?></a>
-            </button>
-            <button class="button type3">
-              <a href="<?php the_field('button2');?>" class="btn btn-3"><?php the_field('button2_desc');?></a>
-            </button>
+            <a href="<?php the_field('button1');?>" class="btn btn-3">
+              <button class="button type3">
+                <?php the_field('button1_desc');?>
+              </button>
+            </a>
+
+            <a href="<?php the_field('button2');?>" class="btn btn-3">
+              <button class="button type3">
+                <?php the_field('button2_desc');?></a>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -68,15 +73,23 @@
         </div>
       </div>
       <div class="buttons anchors">
-          <button class="button type3 link">
-            <a href="<?php the_field('button3');?>" class="btn btn-3"><?php the_field('button3_desc');?></a>
-          </button>
-          <button class="button type3 link">
-            <a href="<?php the_field('button4');?>" class="btn btn-3"><?php the_field('button4_desc');?></a>
-          </button>
-          <button class="button type3 link">
-            <a href="<?php the_field('button5');?>" class="btn btn-3"><?php the_field('button5_desc');?></a>
-          </button>
+          <a href="<?php the_field('button3');?>" class="btn btn-3">
+            <button class="button type3 link">
+              <?php the_field('button3_desc');?>
+            </button>
+          </a>
+
+          <a href="<?php the_field('button4');?>" class="btn btn-3">
+            <button class="button type3 link">
+              <?php the_field('button4_desc');?>
+            </button>
+          </a>
+
+          <a href="<?php the_field('button5');?>" class="btn btn-3">
+            <button class="button type3 link">
+              <?php the_field('button5_desc');?>
+            </button>
+          </a>
       </div>
       </div>
     </div>

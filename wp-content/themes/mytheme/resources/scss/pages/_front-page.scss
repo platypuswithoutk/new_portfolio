@@ -159,6 +159,10 @@ button.button.type3.link {
         padding-top: 45px;
         display: flex;
     }
+
+    #skills-introdution {
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -213,6 +217,10 @@ button.button.type3.link {
 
     .box {
         left: 46%;
+    }
+
+    .buttons.top {
+        justify-content: center;
     }
 }
 

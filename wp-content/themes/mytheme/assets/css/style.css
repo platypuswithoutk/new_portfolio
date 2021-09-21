@@ -254,7 +254,7 @@ header {
       display: block;
       margin: 0 auto;
       background: #b1c8fc;
-      top: 100px;
+      top: 150px;
       z-index: 999; }
       #main-menu.open #menu-menu-1 li {
         width: 100%;
@@ -413,7 +413,9 @@ button.button.type3.link {
     padding: 30px 0px; }
   .buttons {
     padding-top: 45px;
-    display: flex; } }
+    display: flex; }
+  #skills-introdution {
+    margin-top: 0px; } }
 
 @media screen and (max-width: 576px) {
   .box {
@@ -451,7 +453,9 @@ button.button.type3.link {
   #front-page #front-page-introduction #col-introdution .about-box {
     text-align: center; }
   .box {
-    left: 46%; } }
+    left: 46%; }
+  .buttons.top {
+    justify-content: center; } }
 
 @media screen and (max-width: 350px) {
   #front-page #front-page-introduction #col-introdution .about-box h2 {
@@ -888,7 +892,8 @@ img.img {
 .page-template-page-contact h2 {
   text-align: center;
   font-size: 24px;
-  padding-bottom: 70px; }
+  padding-bottom: 70px;
+  color: #545454; }
 
 .page-template-page-contact .button {
   width: 150px;
