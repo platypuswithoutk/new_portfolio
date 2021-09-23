@@ -53,9 +53,9 @@
                         </li>
                     </div>
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
-                        <li class="portfolio_card" id="portfolio">
+                        <li class="portfolio_card" id="momentum">
                             <figure>
-                                <a href="https://momentumpropertyeducation.com/new"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'" alt="I am an example of a work image"></a>
+                                <a href="https://momentumpropertyeducation.com/new"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/momentum.png'" alt="I am an example of a work image"></a>
                             </figure>
                             <div class="caption">
                                 <a href="https://momentumpropertyeducation.com/new" target="_blank" title="momentum" aria-describedby="desc-momentum"><h3>Momentum Property Education</h3></a>
