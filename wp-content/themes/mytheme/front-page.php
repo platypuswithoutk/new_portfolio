@@ -36,7 +36,7 @@
 
       <div class="col-xl-6 col-lg-6 col-md-12 col-12">
         <div class="front-page_img">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sectionIMG.jpg'; ?>" alt="logo">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sectionIMG.jpg';" alt="logo">
         </div>
       </div> 
     </div>

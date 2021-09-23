@@ -27,7 +27,7 @@
             <div class="row" id="menu_style">
                 <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-xs-6 col-6">
                     <div class="logo">
-                        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-removebg-preview.png'; ?>" alt="logo"></a>
+                        <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-removebg-preview.png'" alt="logo"></a>
                     </div>
                 </div>
         

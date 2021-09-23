@@ -20,7 +20,7 @@ get_header();
         <p>W wolnym czasie, poza programowaniem, interesuje się jeszcze siatkówką, kawą, uwielbiam sudoku oraz podróże. </p>
 	  </div>
       <div class="col-xl-6 col-lg-6 col-md-12" id="photo">
-	  	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/small_jo.jpg'; ?>" alt="personal-photo">
+	  	<img src="<?php echo get_template_directory_uri(); ?>/assets/img/small_jo.jpg'" alt="personal-photo">
       </div>
     </div>
 

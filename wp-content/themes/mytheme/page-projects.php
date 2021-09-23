@@ -16,7 +16,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="smart">
                             <figure>
-                                <a href="https://smartelectric.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'; ?>" alt="I am an example of a work image"></a>
+                                <a href="https://smartelectric.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'" alt="I am an example of a work image"></a>
                             </figure>
                             <div class="caption">
                                 <a href="https://smartelectric.pl/" target="_blank" title="Smart Electric" aria-describedby="desc-smart"><h3>Smart Electric</h3></a>
@@ -28,7 +28,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                         <li class="portfolio_card" id="april">
                             <figure>
-                                <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'; ?>" alt="April Development"></a>
+                                <a href="https://aprildevelopment.pl/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'" alt="April Development"></a>
                             </figure>
                             <div class="caption">
                                 <a href="https://aprildevelopment.pl/" target="_blank" title="April Development" aria-describedby="desc-april"><h3>April Development</h3></a>
@@ -55,7 +55,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                         <li class="portfolio_card" id="portfolio">
                             <figure>
-                                <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'; ?>" alt="I am an example of a work image"></a>
+                                <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'" alt="I am an example of a work image"></a>
                             </figure>
                             <div class="caption">
                                 <a href="https://platypuswithoutk.github.io/portfolio/" target="_blank" title="portfolio" aria-describedby="desc-portfolio"><h3>Stare portfolio</h3></a>
@@ -74,7 +74,7 @@
                     <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                         <li class="portfolio_card" id="weatherapp">
                             <figure>
-                                <a href="https://platypuswithoutk.github.io/weather_APP/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/weatherapp.png'; ?>" alt="I am an example of a work image"></a>
+                                <a href="https://platypuswithoutk.github.io/weather_APP/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/weatherapp.png'" alt="I am an example of a work image"></a>
                             </figure>
                             <div class="caption">
                                 <a href="https://platypuswithoutk.github.io/weather_APP/" target="_blank" title="weatherapp" aria-describedby="desc-weatherapp"><h3>Weather App</h3></a>
