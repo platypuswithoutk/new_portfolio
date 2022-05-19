@@ -23,7 +23,7 @@
                         </figure>
                         <div class="caption">
                             <a href="https://www.agentprovocateur.com/" target="_blank" title="Agent Provocateur" aria-describedby="desc-agent"><h3>Agent Provocateur</h3></a>
-                            <p>Strona oraz sklep dla Agent Provocateur</p>
+                            <p>Strona oraz sklep internetowy dla Agent Provocateur</p>
                             <span class="cta" aria-hidden="true" id="desc-agent">Przejdź na stronę internetową</span>
                         </div>
                     </li>
@@ -35,7 +35,7 @@
                         </figure>
                         <div class="caption">
                             <a href="https://www.oliverbonas.com/" target="_blank" title="Oliver Bonast" aria-describedby="desc-bonas"><h3>Oliver Bonas</h3></a>
-                            <p>Strona i sklep interentowy dla firmy Oliver Bonas</p>
+                            <p>Strona oraz sklep internetowy dla firmy Oliver Bonas</p>
                             <span class="cta" aria-hidden="true" id="desc-bonas">Przejdź na stronę internetową</span>
                         </div>
                     </li>
