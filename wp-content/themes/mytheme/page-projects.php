@@ -19,7 +19,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
                     <li class="portfolio_card" id="agent">
                         <figure>
-                            <a href="https://www.agentprovocateur.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/smart1.png'" alt="Agent Provocateur Img"></a>
+                            <a href="https://www.agentprovocateur.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/agent.png'" alt="Agent Provocateur Img"></a>
                         </figure>
                         <div class="caption">
                             <a href="https://www.agentprovocateur.com/" target="_blank" title="Agent Provocateur" aria-describedby="desc-agent"><h3>Agent Provocateur</h3></a>
@@ -31,7 +31,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
                     <li class="portfolio_card" id="bonas">
                         <figure>
-                            <a href="https://www.oliverbonas.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/april.png'" alt="Oliver Bonas Img"></a>
+                            <a href="https://www.oliverbonas.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/bonas.png'" alt="Oliver Bonas Img"></a>
                         </figure>
                         <div class="caption">
                             <a href="https://www.oliverbonas.com/" target="_blank" title="Oliver Bonast" aria-describedby="desc-bonas"><h3>Oliver Bonas</h3></a>
