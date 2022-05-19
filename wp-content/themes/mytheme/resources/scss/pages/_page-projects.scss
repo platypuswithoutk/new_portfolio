@@ -6,8 +6,16 @@
     margin-top: -20px;
 }
 
+.commercial {
+    p {
+        margin: 0;
+        font-size: 15px;
+    }
+}
+
 .section_title.no {
     margin-top: 40px;
+    margin-bottom: 0px;
     text-align: center;
 }
 
@@ -38,7 +46,7 @@
 }
 
 .portfolio_card, .portfolio_card .caption {
-    display: flex; 
+    display: flex;
     flex-direction: column;
 }
 
@@ -135,11 +143,11 @@ img.img {
 
 .portfolio_card a:after {
     content:'';
-    position: absolute; 
-    left: 0; 
-    top: 0; 
-    right: 0; 
-    bottom:0; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom:0;
     z-index:999;
 }
 
@@ -156,12 +164,12 @@ img.img {
 }
 
 #momentum:after {
-    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, JS, Wordpress (ACF), RWD'; 
+    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, JS, Wordpress (ACF), RWD';
     padding-left: 20px;
 }
 
 #smart:after {
-    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, JS, Wordpress (ACF), RWD'; 
+    content: 'Stack: HTML, SCSS, Bootstrap, jQuery, JS, Wordpress (ACF), RWD';
     padding-left: 20px;
 }
 
@@ -196,7 +204,7 @@ img.img {
 }
 
 .portfolio_card:hover .caption span {
-    top: 6em; 
+    top: 6em;
     opacity:1;
 }
 
@@ -206,7 +214,7 @@ img.img {
 
 .portfolio_card:focus-within {
     box-shadow: 0 0 0 0 0.25rem;
-} 
+}
 
 .portfolio_card:focus-within a:focus, .portfolio_card:focus-within h3 a:focus {
     text-decoration: none;
