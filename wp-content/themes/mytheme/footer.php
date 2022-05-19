@@ -1,7 +1,7 @@
 <footer>
   <div class="row">
     <div class="col-12" id="footer-text">
-      <div class="copy">© 2021 Projekt i wykonanie Roksana Dzioba</div>
+      <div class="copy">© 2022 Projekt i wykonanie Roksana Dzioba</div>
     </div>
   </div>
 </footer>

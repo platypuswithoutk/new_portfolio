@@ -903,15 +903,15 @@ img.img {
   width: 150px;
   padding: 10px 20px; }
 
-.page-template-page-contact #contact-data p {
-  font-size: 18px;
+.page-template-page-contact #contact-data {
   text-align: center; }
-
-.page-template-page-contact #contact-data a:hover {
-  color: #7ea3fa; }
-
-.page-template-page-contact #contact-data img {
-  max-width: 100%; }
+  .page-template-page-contact #contact-data p {
+    font-size: 18px;
+    text-align: center; }
+  .page-template-page-contact #contact-data a:hover {
+    color: #7ea3fa; }
+  .page-template-page-contact #contact-data img {
+    max-width: 100%; }
 
 .page-template-page-contact p {
   font-size: 14px;
