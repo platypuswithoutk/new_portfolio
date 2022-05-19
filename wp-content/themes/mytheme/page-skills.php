@@ -12,7 +12,7 @@
     <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>W swojej pracy wykorzystuje następujące technologie:</h2>
+        <h2>W swojej pracy korzystałam lub wykorzystuje nadal następujące technologie:</h2>
       </div>
       <div class="row tech-div">
         <div class="tech-item">
@@ -22,6 +22,14 @@
         <div class="tech-item">
           <i class="fab fa-css3-alt"></i>
           <p>CSS</p>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-angular"></i>
+          <p>Angular</p>
+        </div>
+        <div class="tech-item">
+          <i class="fab fa-magento"></i>
+          <p>Magento</p>
         </div>
         <div class="tech-item">
           <i class="fab fa-wordpress"></i>
@@ -61,13 +69,16 @@
           <h2>oraz narzędzia takie jak:</h2>
           <div class="tools-items">
             <ul>
-                <li>Webpack</li>
+              <li>Jenkins</li>
               <li>Webpack</li>
               <li>Xampp</li>
               <li>Git</li>
               <li>Github</li>
+              <li>Bitbucket</li>
+              <li>Gitlab</li>
               <li>VSC</li>
               <li>JIRA</li>
+              <li>Figma</li>
               <li>ESLint</li>
               <li>AdobeXD</li>
               <li>Avocode/PSDtech</li>

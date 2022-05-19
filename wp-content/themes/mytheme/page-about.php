@@ -14,9 +14,9 @@ get_header();
     <div class="row" class="about">
       <div class="col-xl-6 col-lg-6 col-md-12" id="about-desc">
         <h2>Witam na mojej stronie!</h2>
-        <p>Nazywam się Roksana Dzioba i naukę kodowania stron internetowych rozpoczęłam około półtora roku temu.</p>
+        <p>Nazywam się Roksana Dzioba i naukę kodowania stron internetowych rozpoczęłam w 2019 roku.</p>
         <p>Od listopada 2019 roku biorę udział w różnych kursach dażąc do poszerzenia moich kompetencji, poprzez poznawanie najnowszych rozwiązań czy technologii programistycznych. Wzięłam także udział w projekcie typu Open Source.
-        <p>Aktualnie zdobywam komercyjne doświadczenie pracując stacjonarnie dla firmy Millenium Studio z Krakowa, gdzie zajmuje się kodowaniem stron internetowych oraz sklepów, na podstawie projektu graficznego przygotowanego przez grafików.</p>
+        <p>Aktualnie pracuje w modelu hybrydowym dla firmy Tom&Co z siedzibą w Katowicach, gdzie zajmuje się kodowaniem sklepów internetowych dla brytyjskich klientów (największe: Agent Provocateur, MyFujiFilm, Oliver Bonas, Microscooters), na podstawie projektu graficznego przygotowanego przez Designerów.</p>
         <p>W wolnym czasie, poza programowaniem, interesuje się jeszcze siatkówką, kawą, uwielbiam sudoku oraz podróże. </p>
 	  </div>
       <div class="col-xl-6 col-lg-6 col-md-12" id="photo">
@@ -27,25 +27,37 @@ get_header();
     <div class="row" id="exp">
         <div class="col-12">
             <h2>Doświadczenie zawodowe</h2>
-            
+
         <div class="timeline-area">
 	        <div class="container">
-		
+
 		<div class="all-timelines">
-			<!--SINGLE TIMELINE-->
+
+            <div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
+					<div data-aos="fade-left">
+					<span>
+						<h6>Listopad 2021 - Maj 2022</h6> Junior Front-end Developer, Tom & Co, Katowice
+					</span>
+					</div>
+					<div class="t-square"></div>
+				</div>
+			</div>
+
 			<div class="single-timeline d-flex-2">
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
 					<div data-aos="fade-left">
 					<span>
-						<h6>Kwiecień 2021</h6> Front-end Developer, Millenium Studio, Kraków
+						<h6>Kwiecień 2021 - Sierpień 2021</h6> Junior Front-end Developer, Millenium Studio, Kraków
 					</span>
 					</div>
 					<div class="t-square"></div>
 				</div>
 			</div>
 			<!--SINGLE TIMELINE-->
-			
+
 			<div class="single-timeline d-flex-2">
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
@@ -119,7 +131,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-           
+
         </div>
     </div>
     </div>
