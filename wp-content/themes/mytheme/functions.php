@@ -15,5 +15,3 @@ function include_my_scripts() {
   }
   add_action('wp_enqueue_scripts', 'include_my_scripts');
 ?>
-
-
