@@ -105,6 +105,18 @@
         }
         .skills {
             justify-content: center;
+
+            ul {
+                text-align: center;
+
+                li {
+                    width: fit-content;
+                }
+            }
+
+            img {
+                max-width: 400px;
+            }
         }
     }
 }
@@ -114,6 +126,9 @@
         h2 {
             font-size: 20px;
             padding-bottom: 40px;
+        }
+        img {
+            max-width: 300px;
         }
     }
 }

@@ -539,12 +539,20 @@ button.button.type3.link {
   .page-template-page-skills .tech-div {
     justify-content: center; }
   .page-template-page-skills .skills {
-    justify-content: center; } }
+    justify-content: center; }
+    .page-template-page-skills .skills ul {
+      text-align: center; }
+      .page-template-page-skills .skills ul li {
+        width: fit-content; }
+    .page-template-page-skills .skills img {
+      max-width: 400px; } }
 
 @media screen and (max-width: 425px) {
   .page-template-page-skills h2 {
     font-size: 20px;
-    padding-bottom: 40px; } }
+    padding-bottom: 40px; }
+  .page-template-page-skills img {
+    max-width: 300px; } }
 
 .section_title {
   text-align: center;
