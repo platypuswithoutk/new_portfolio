@@ -38,7 +38,7 @@ get_header();
 				<div class="timeline-text d-flex-2">
 					<div data-aos="fade-left">
 					<span>
-						<h6>Listopad 2021 - Maj 2022</h6> Junior Front-end Developer, Tom & Co, Katowice
+						<h6>Listopad 2021 - nadal</h6> Junior Front-end Developer, Tom & Co, Katowice
 					</span>
 					</div>
 					<div class="t-square"></div>

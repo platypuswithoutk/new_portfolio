@@ -45,7 +45,7 @@
 
         <div class="commercial">
             <div class="section_title"><h2>Projekty komerycjne</h2>
-         <p>* stworzone podczas pracy dla firmy Millenium Studio z Krakowa</p>
+         <p>* napisane samodzielnie podczas pracy dla firmy Millenium Studio z Krakowa</p>
         </div>
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
@@ -100,23 +100,7 @@
                     </li>
                 </div>
             </div>
-
-            <div class="row second-row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
-                    <li class="portfolio_card" id="portfolio">
-                        <figure>
-                            <a href="https://platypuswithoutk.github.io/portfolio/"> <img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/portfolio1.png'" alt="I am an example of a work image"></a>
-                        </figure>
-                        <div class="caption">
-                            <a href="https://platypuswithoutk.github.io/portfolio/" target="_blank" title="portfolio" aria-describedby="desc-portfolio"><h3>Stare portfolio</h3></a>
-                            <p>Moje dawne portfolio używane do celów rekrutacyjnych w zeszłym roku</p>
-                            <span class="cta" aria-hidden="true" id="desc-portfolio">Przejdź na stronę internetową</span>
-                        </div>
-                    </li>
-                </div>
-            </div>
         </div>
-
 
         <div class="private">
             <div class="section_title no"><h2>Projekty niekomerycjne</h2></div>
