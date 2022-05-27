@@ -1,10 +1,13 @@
 .page-template-page-skills {
-    
-    h2 {
-        text-align: center;
+
+    h2, h3 {
         font-size: 24px;
-        padding-bottom: 70px;
         color: #545454;
+    }
+
+    h2 {
+        padding-bottom: 70px;
+        text-align: center;
     }
 
     .tech-div {
@@ -37,14 +40,24 @@
         }
     }
 
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        img {
+            width: 500px;
+        };
+    }
+
     .tools-items {
+        padding-left: 20px;
 
         ul {
             list-style-type: none;
             padding: 0;
         }
         li {
-            width: fit-content;
             margin: auto;
             font-size: 16px;
             position: relative;
@@ -88,6 +101,9 @@
             padding: 10px;
         }
         .tech-div {
+            justify-content: center;
+        }
+        .skills {
             justify-content: center;
         }
     }

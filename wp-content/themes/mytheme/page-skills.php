@@ -63,30 +63,36 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-12">
-        <div class="skills_tools">
-          <h2>oraz narzędzia takie jak:</h2>
-          <div class="tools-items">
-            <ul>
-              <li>Jenkins</li>
-              <li>Webpack</li>
-              <li>Xampp</li>
-              <li>Git</li>
-              <li>Github</li>
-              <li>Bitbucket</li>
-              <li>Gitlab</li>
-              <li>VSC</li>
-              <li>JIRA</li>
-              <li>Figma</li>
-              <li>ESLint</li>
-              <li>AdobeXD</li>
-              <li>Avocode/PSDtech</li>
-            </ul>
-          </div>
+    <div class="container skills">
+        <div class="row">
+            <div class="col-12">
+                <div class="skills_tools">
+                <h3>oraz narzędzia takie jak:</h3>
+                <div class="tools-items">
+                    <ul>
+                    <li>Jenkins</li>
+                    <li>Webpack</li>
+                    <li>Xampp</li>
+                    <li>Git</li>
+                    <li>Github</li>
+                    <li>Bitbucket</li>
+                    <li>Gitlab</li>
+                    <li>VSC</li>
+                    <li>JIRA</li>
+                    <li>Figma</li>
+                    <li>ESLint</li>
+                    <li>AdobeXD</li>
+                    <li>Avocode/PSDtech</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12" id="photo_code">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/code.jpg'" alt="code-photo">
+            </div>
+        </div>
     </div>
 </section>
 

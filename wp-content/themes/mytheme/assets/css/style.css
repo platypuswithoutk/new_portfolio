@@ -468,11 +468,13 @@ button.button.type3.link {
     100% {
       top: 290px; } } }
 
-.page-template-page-skills h2 {
-  text-align: center;
+.page-template-page-skills h2, .page-template-page-skills h3 {
   font-size: 24px;
-  padding-bottom: 70px;
   color: #545454; }
+
+.page-template-page-skills h2 {
+  padding-bottom: 70px;
+  text-align: center; }
 
 .page-template-page-skills .tech-div {
   text-align: center;
@@ -493,27 +495,34 @@ button.button.type3.link {
   .page-template-page-skills .tech-div p {
     font-size: 16px; }
 
-.page-template-page-skills .tools-items ul {
-  list-style-type: none;
-  padding: 0; }
+.page-template-page-skills .skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .page-template-page-skills .skills img {
+    width: 500px; }
 
-.page-template-page-skills .tools-items li {
-  width: fit-content;
-  margin: auto;
-  font-size: 16px;
-  position: relative; }
-  .page-template-page-skills .tools-items li:before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -20px;
-    top: 6px;
-    width: 12px;
-    height: 12px;
-    border: 1px solid #018df5;
-    background: #018df5;
-    border-radius: 50%;
-    box-shadow: 0px 0px 0px 3px #fff inset; }
+.page-template-page-skills .tools-items {
+  padding-left: 20px; }
+  .page-template-page-skills .tools-items ul {
+    list-style-type: none;
+    padding: 0; }
+  .page-template-page-skills .tools-items li {
+    margin: auto;
+    font-size: 16px;
+    position: relative; }
+    .page-template-page-skills .tools-items li:before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: -20px;
+      top: 6px;
+      width: 12px;
+      height: 12px;
+      border: 1px solid #018df5;
+      background: #018df5;
+      border-radius: 50%;
+      box-shadow: 0px 0px 0px 3px #fff inset; }
 
 .page-template-page-skills .skills_tools {
   padding-top: 50px; }
@@ -528,6 +537,8 @@ button.button.type3.link {
   .page-template-page-skills .tech-item {
     padding: 10px; }
   .page-template-page-skills .tech-div {
+    justify-content: center; }
+  .page-template-page-skills .skills {
     justify-content: center; } }
 
 @media screen and (max-width: 425px) {
