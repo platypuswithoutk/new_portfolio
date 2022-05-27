@@ -17,7 +17,7 @@
           <h1><span>R</span>oksana <span>D</span>zioba</h1>
           <h2><?php the_field('main_description');?></h2>
           <div class="box"></div>
-        
+
           <div class="buttons top">
             <a href="<?php the_field('button1');?>" class="btn btn-3">
               <button class="button type3">
@@ -27,7 +27,7 @@
 
             <a href="<?php the_field('button2');?>" class="btn btn-3">
               <button class="button type3">
-                <?php the_field('button2_desc');?></a>
+                <?php the_field('button2_desc');?>
               </button>
             </a>
           </div>
@@ -38,7 +38,7 @@
         <div class="front-page_img">
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sectionIMG.jpg';" alt="logo">
         </div>
-      </div> 
+      </div>
     </div>
 
     <div data-aos="fade-up"
@@ -51,8 +51,8 @@
             <p>Wordpress</p>
           </div>
           <div class="skill-card">
-            <i class="fab fa-react"></i>
-            <p>React</p>
+            <i class="fab fa-angular"></i>
+            <p>Angular</p>
           </div>
           <div class="skill-card">
             <i class="fab fa-js"></i>
