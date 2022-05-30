@@ -44,7 +44,7 @@
 
 
         <div class="commercial">
-            <div class="section_title"><h2>Projekty komerycjne</h2>
+            <div class="section_title krk"><h2>Projekty komerycjne</h2>
          <p>* napisane samodzielnie podczas pracy dla firmy Millenium Studio z Krakowa</p>
         </div>
             <div class="row">

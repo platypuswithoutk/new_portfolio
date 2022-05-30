@@ -6,6 +6,10 @@
     margin-top: -20px;
 }
 
+.section_title.krk, .private {
+    padding-top: 50px;
+}
+
 .commercial {
     p {
         margin: 0;
@@ -42,7 +46,6 @@
     background: #fff;
     cursor: pointer;
     position: relative;
-    // margin: 1em 20px;
 }
 
 .portfolio_card, .portfolio_card .caption {
@@ -221,12 +224,12 @@ img.img {
 }
 
 .portfolio_card:hover figure .img{
-    transform:scale(1.25);
+    transform: scale(1.25);
 }
 
 .portfolio_card:hover .caption span {
     top: 6em;
-    opacity:1;
+    opacity: 1;
 }
 
 .portfolio_card a:focus, .portfolio_card h3 a:focus {
@@ -268,6 +271,10 @@ img.img {
         margin-top: 0px;
     }
 
+    .section_title.krk, .private {
+        padding-top: 50px;
+    }
+
     .portfolio_card .caption span {
         opacity: 1;
     }
@@ -290,6 +297,10 @@ img.img {
         height: 275px;
     }
 
+    .portfolio_card {
+        height: 486px;
+    }
+
     .section_title {
         font-size: 18px;
     }
@@ -303,10 +314,18 @@ img.img {
     .portfolio_card figure {
         height: 235px;
     }
+
+    .portfolio_card {
+        height: 440px;
+    }
 }
 
 @media screen and (max-width: 375px) {
     .portfolio_card figure {
         height: 210px;
+    }
+
+    .portfolio_card {
+        height: 400px;
     }
 }

@@ -561,6 +561,9 @@ button.button.type3.link {
   color: #545454;
   margin-top: -20px; }
 
+.section_title.krk, .private {
+  padding-top: 50px; }
+
 .commercial p {
   margin: 0;
   font-size: 15px; }
@@ -774,6 +777,8 @@ img.img {
     font-size: 20px;
     padding-bottom: 40px;
     margin-top: 0px; }
+  .section_title.krk, .private {
+    padding-top: 50px; }
   .portfolio_card .caption span {
     opacity: 1; }
   .section_title.no {
@@ -786,6 +791,8 @@ img.img {
 @media screen and (max-width: 490px) {
   .portfolio_card figure {
     height: 275px; }
+  .portfolio_card {
+    height: 486px; }
   .section_title {
     font-size: 18px; }
   .section_title.no {
@@ -793,11 +800,15 @@ img.img {
 
 @media screen and (max-width: 425px) {
   .portfolio_card figure {
-    height: 235px; } }
+    height: 235px; }
+  .portfolio_card {
+    height: 440px; } }
 
 @media screen and (max-width: 375px) {
   .portfolio_card figure {
-    height: 210px; } }
+    height: 210px; }
+  .portfolio_card {
+    height: 400px; } }
 
 .page-template-page-about #about-desc {
   padding-bottom: 70px; }
