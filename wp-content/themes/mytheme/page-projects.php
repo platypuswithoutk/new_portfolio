@@ -16,31 +16,58 @@
         </div>
 
         <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
-                    <li class="portfolio_card" id="agent">
-                        <figure>
-                            <a href="https://www.agentprovocateur.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/agent.png'" alt="Agent Provocateur Img"></a>
-                        </figure>
-                        <div class="caption">
-                            <a href="https://www.agentprovocateur.com/" target="_blank" title="Agent Provocateur" aria-describedby="desc-agent"><h3>Agent Provocateur</h3></a>
-                            <p>Strona oraz sklep internetowy dla Agent Provocateur</p>
-                            <span class="cta" aria-hidden="true" id="desc-agent">Przejdź na stronę internetową</span>
-                        </div>
-                    </li>
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
-                    <li class="portfolio_card" id="scooters">
-                        <figure>
-                            <a href="https://www.micro-scooters.co.uk/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/scooters.png'" alt="Microscooters Img"></a>
-                        </figure>
-                        <div class="caption">
-                            <a href="https://www.micro-scooters.co.uk/" target="_blank" title="Micro-scooters" aria-describedby="desc-scooters"><h3>Micro-scooters</h3></a>
-                            <p>Strona oraz sklep internetowy dla firmy Micro-scooters</p>
-                            <span class="cta" aria-hidden="true" id="desc-scooters">Przejdź na stronę internetową</span>
-                        </div>
-                    </li>
-                </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <li class="portfolio_card" id="agent">
+                    <figure>
+                        <a href="https://www.agentprovocateur.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/agent.png'" alt="Agent Provocateur Img"></a>
+                    </figure>
+                    <div class="caption">
+                        <a href="https://www.agentprovocateur.com/" target="_blank" title="Agent Provocateur" aria-describedby="desc-agent"><h3>Agent Provocateur</h3></a>
+                        <p>Strona oraz sklep internetowy dla Agent Provocateur</p>
+                        <span class="cta" aria-hidden="true" id="desc-agent">Przejdź na stronę internetową</span>
+                    </div>
+                </li>
             </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
+                <li class="portfolio_card" id="scooters">
+                    <figure>
+                        <a href="https://www.micro-scooters.co.uk/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/scooters.png'" alt="Microscooters Img"></a>
+                    </figure>
+                    <div class="caption">
+                        <a href="https://www.micro-scooters.co.uk/" target="_blank" title="Micro-scooters" aria-describedby="desc-scooters"><h3>Micro-scooters</h3></a>
+                        <p>Strona oraz sklep internetowy dla firmy Micro-scooters</p>
+                        <span class="cta" aria-hidden="true" id="desc-scooters">Przejdź na stronę internetową</span>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <li class="portfolio_card" id="lsa">
+                    <figure>
+                        <a href="https://www.lsa-international.com//"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/lsa.png'" alt="LSA Img"></a>
+                    </figure>
+                    <div class="caption">
+                        <a href="https://www.lsa-international.com/" target="_blank" title="LSA" aria-describedby="desc-lsa"><h3>LSA</h3></a>
+                        <p>Strona oraz sklep internetowy dla LSA International</p>
+                        <span class="cta" aria-hidden="true" id="desc-lsa">Przejdź na stronę internetową</span>
+                    </div>
+                </li>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
+                <li class="portfolio_card" id="sekonda">
+                    <figure>
+                        <a href="https://www.sekonda.com//"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/sekonda.png'" alt="Sekondas Img"></a>
+                    </figure>
+                    <div class="caption">
+                        <a href="https://www.sekonda.com/" target="_blank" title="Sekonda watch" aria-describedby="desc-sekonda"><h3>Sekonda</h3></a>
+                        <p>Strona oraz sklep internetowy dla firmy Sekonda</p>
+                        <span class="cta" aria-hidden="true" id="desc-sekonda">Przejdź na stronę internetową</span>
+                    </div>
+                </li>
+            </div>
+        </div>
 
 
         <div class="commercial">
