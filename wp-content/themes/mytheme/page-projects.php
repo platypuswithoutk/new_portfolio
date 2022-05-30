@@ -29,14 +29,14 @@
                     </li>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 second-col">
-                    <li class="portfolio_card" id="bonas">
+                    <li class="portfolio_card" id="scooters">
                         <figure>
-                            <a href="https://www.oliverbonas.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/bonas.png'" alt="Oliver Bonas Img"></a>
+                            <a href="https://www.micro-scooters.co.uk/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/scooters.png'" alt="Microscooters Img"></a>
                         </figure>
                         <div class="caption">
-                            <a href="https://www.oliverbonas.com/" target="_blank" title="Oliver Bonast" aria-describedby="desc-bonas"><h3>Oliver Bonas</h3></a>
-                            <p>Strona oraz sklep internetowy dla firmy Oliver Bonas</p>
-                            <span class="cta" aria-hidden="true" id="desc-bonas">Przejdź na stronę internetową</span>
+                            <a href="https://www.micro-scooters.co.uk/" target="_blank" title="Micro-scooters" aria-describedby="desc-scooters"><h3>Micro-scooters</h3></a>
+                            <p>Strona oraz sklep internetowy dla firmy Micro-scooters</p>
+                            <span class="cta" aria-hidden="true" id="desc-scooters">Przejdź na stronę internetową</span>
                         </div>
                     </li>
                 </div>
