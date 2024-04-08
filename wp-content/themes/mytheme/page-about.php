@@ -15,8 +15,8 @@ get_header();
       <div class="col-xl-6 col-lg-6 col-md-12" id="about-desc">
         <h2>Witam na mojej stronie!</h2>
         <p>Nazywam się Roksana Dzioba i naukę kodowania stron internetowych rozpoczęłam w 2019 roku.</p>
-        <p>Od listopada 2019 roku biorę udział w różnych kursach dażąc do poszerzenia moich kompetencji, poprzez poznawanie najnowszych rozwiązań czy technologii programistycznych. Wzięłam także udział w projekcie typu Open Source.
-        <p>Aktualnie pracuje w modelu hybrydowym dla firmy Tom&Co z siedzibą w Katowicach, gdzie zajmuje się kodowaniem sklepów internetowych dla brytyjskich klientów (największe: Agent Provocateur, MyFujiFilm, Oliver Bonas, Microscooters), na podstawie projektu graficznego przygotowanego przez Designerów.</p>
+        <p>Od listopada 2019 roku biorę udział w różnych kursach dążąc do poszerzenia moich kompetencji, poprzez poznawanie najnowszych rozwiązań czy technologii programistycznych. W tym momencie posidam prawie 4 letnie doświadczenie komercyjne.
+        <p>Aktualnie pracuje w modelu zdalnym dla firmy Benhauer z siedzibą w Krakowie, gdzie zajmuje się kodowaniem platformy do marketingu automatycznego - Salesmanago, na podstawie projektu graficznego przygotowanego przez Designerów oraz założeń biznesowych dostarczonych przez Product Ownerów.</p>
         <p>W wolnym czasie, poza programowaniem, interesuje się jeszcze siatkówką, kawą, uwielbiam sudoku oraz podróże. </p>
 	  </div>
       <div class="col-xl-6 col-lg-6 col-md-12" id="photo">
@@ -36,9 +36,20 @@ get_header();
             <div class="single-timeline d-flex-2">
 				<div class="timeline-blank"></div>
 				<div class="timeline-text d-flex-2">
+					<div data-aos="fade-right">
+					<span>
+						<h6>Wrzesień 2022 - nadal</h6> Junior Front-end Developer, Benhauer, Kraków, Zdalnie
+					</span>
+					</div>
+					<div class="t-square"></div>
+				</div>
+			</div>
+            <div class="single-timeline d-flex-2">
+				<div class="timeline-blank"></div>
+				<div class="timeline-text d-flex-2">
 					<div data-aos="fade-left">
 					<span>
-						<h6>Listopad 2021 - nadal</h6> Junior Front-end Developer, Tom & Co, Katowice
+						<h6>Listopad 2021 - Sierpień 2022</h6> Junior Front-end Developer, Tom & Co, Katowice, Zdalnie
 					</span>
 					</div>
 					<div class="t-square"></div>

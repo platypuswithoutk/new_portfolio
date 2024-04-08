@@ -16,7 +16,9 @@
           <h2 class="up-text"><?php the_field('firstdescription');?></h2>
           <h1><span>R</span>oksana <span>D</span>zioba</h1>
           <h2><?php the_field('main_description');?></h2>
-          <div class="box"></div>
+          <div class="animations">
+            <div class="box"></div>
+        </div>
 
           <div class="buttons top">
             <a href="<?php the_field('button1');?>" class="btn btn-3">

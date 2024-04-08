@@ -12,7 +12,27 @@
     <div class="container">
         <div class="commercial">
             <div class="section_title"><h2>Projekty komerycjne</h2>
-         <p>* nad którymi pracuje razem z zespołem w firmie Tom&CO z Katowic</p>
+         <p>* nad którymi pracowałam razem z zespołem w firmie Benhauer z Krakowa</p>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                <li class="portfolio_card" id="salesmanago">
+                    <figure>
+                        <a href="https://www.salesmanago.com/"><img class="img" src="<?php echo get_template_directory_uri(); ?>/assets/img/salesmanago.png'" alt="Salesmanago Img"></a>
+                    </figure>
+                    <div class="caption">
+                        <a href="https://www.salesmanago.com/" target="_blank" title="Salesmanago" aria-describedby="desc-salesmanago"><h3>Platforma Salesmanago</h3></a>
+                        <p>Strona oraz platforma do marketingu automatycznego Salesmanago</p>
+                        <span class="cta" aria-hidden="true" id="desc-salesmanago">Przejdź na stronę internetową</span>
+                    </div>
+                </li>
+            </div>
+        </div>
+
+        <div class="commercial">
+            <div class="section_title mt-5"><h2>Projekty komerycjne</h2>
+         <p>* nad którymi pracowałam razem z zespołem w firmie Tom&CO z Katowic</p>
         </div>
 
         <div class="row">
